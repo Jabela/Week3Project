@@ -1,0 +1,796 @@
+// Greys
+$lightGray: #E3E3E1; //Sidebar Background
+$gray: #797b7e; //Form Textarea Input, Paragraphs
+$lightGray2: #B0B2B4; //Form Labels
+
+// Greens
+$pastelGreen: #549F66;
+$freshGreen: #4F8510; //Link Hovers
+$paleGreen: #80A94E;
+$forestGreen: #4B8256;
+$pastelGreen2: #73AE80;
+$aquaGreen: #00b480; //Links
+
+// Text
+$fadedBlack: #414042;
+$black: #231F20;
+
+// Fonts
+$helvetica: helvetica, arial, sans-serif;
+
+// Other
+$white: #ffffff;
+
+
+
+
+//GLOBAL STYLES----------------------------------------------------------
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+
+/*! normalize.css v3.0.1 | MIT License | git.io/normalize */html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background:0 0}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:700}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:700}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
+
+.clearfix:after {
+   content: " ";
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+h1 {
+	margin: 0;
+}
+
+h2, h3, h4, h5, p {
+	font-family: $helvetica;
+	letter-spacing: -0.25px;
+	font-weight: 100;
+}
+
+h2 {
+	font-size: 4.4rem;
+	color: #302434;
+	line-height: 5.5rem;
+}
+
+h3 {
+	font-size: 2.6rem;
+	color: #414042;
+	margin: 15px 0;
+}
+
+h4 {
+	font-size: 1.6rem;
+	color: $gray;
+	margin: 0;
+}
+
+p {
+	font-size: 1.6rem;
+	line-height: 2.5rem;
+	color: $gray;
+}
+
+a {
+	color: $aquaGreen;
+	font-weight: 100;
+	text-decoration: none;
+	display: inline;
+
+	&:hover {
+		color: $freshGreen;
+	}
+}
+
+img {
+	max-width: 100%;
+}
+
+.wrapper {
+	position: relative;
+}
+
+
+
+
+//NAV STYLES------------------------------------------------------------
+
+.content nav {
+	margin: 57px 0 70px 0;
+
+	ul {
+		padding: 0;
+		margin: 0;
+		list-style-type: none;
+	}	
+
+	li {
+		display: inline-block;
+		padding-right: 35px;
+
+	}
+
+	a {
+		text-decoration: none;
+		font-family: $helvetica;
+		font-size: 1.6rem;
+		font-weight: 100;
+
+		&:hover {
+			color: $freshGreen;
+		}
+	}
+}
+
+
+
+
+//BODY STYLES------------------------------------------------------------
+
+.content {
+	color: #000;
+	width: 66.66%;
+	padding-left: 5%;
+	padding-right: 12%;
+	float: left;
+}
+
+.logoMobile, .navMobile, .heroMobile {
+	display: none;
+}
+
+
+
+
+// The Team
+
+.team {
+	padding-left: 0;
+	list-style-type: none;
+
+	li {
+		width: 50%;
+		float: left;
+		padding-right: 1.5%;
+
+		a {
+			display: block;
+			color: $fadedBlack;
+			font-size: 1.6rem;
+
+			&:hover {
+				color: $fadedBlack;
+			}
+		}
+		
+		&:nth-last-child(1), &:nth-last-child(2) {
+			margin-bottom: 50px;
+		}
+	}
+
+	p {
+		font-size: 1.3rem;
+		line-height: 1.8rem;
+		margin-bottom: 30px;
+	}
+}
+
+.bioHover {
+	position: relative;
+
+	a.overlay {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background: rgba(255, 255, 255, 0.7);
+		text-align: center;
+		font-size: 2.6rem;
+		color: $fadedBlack;
+		padding-top: 30%;
+		// use opacity to apply transition
+		opacity: 0;
+		transition: opacity 0.3s;
+	}
+
+	&:hover a.overlay {
+		opacity: 1;
+		color: $fadedBlack;
+	}
+}
+
+
+
+
+// Remaining Team
+
+.remainingTeam {
+	// removes inline-block ghost space
+	font-size: 0;
+	padding-left: 0;
+
+	li {
+		width: 33.3%;
+		display: inline-block;
+		vertical-align: top;
+		padding-right: 1.5%;
+		margin: 15px 0;
+	}
+		
+	a {
+		display: block;
+		font-size: 1.3rem;
+		line-height: 1.8rem;
+	}
+
+	p {
+		padding: 0;
+		margin: 0;
+		font-size: 1.3rem;
+	}
+
+	h4 {
+		padding: 12px 0 7px 0;
+	}
+}
+
+
+
+
+// Contact Us
+
+.contactUs {
+	a, p {
+		font-size: 2.6rem;
+		line-height: 3.25rem;
+		margin: 0;
+	}
+
+	h2 {
+		margin-bottom: 0;
+	}
+	
+	&:last-child {
+		padding-bottom: 100px;
+	}
+}
+
+.contactUsMobile {
+	display: none;
+}
+
+
+
+
+// Project Fit
+
+.projectFit {
+	clear: both;
+}
+
+.projectFit, .projectInquiries, .contactUs  {
+	padding-top: 40px;
+}
+
+.projectFit h2, .projectFit li {
+	border-bottom: 1px solid $lightGray;
+	padding-bottom: 20px;
+	margin-bottom: 0;
+}
+
+.projectFit ol {
+	margin: 0;
+	padding: 0;
+
+	li {
+		counter-increment: li;
+		list-style: none;
+		list-style-position: none;
+		font-size: 2.6rem;
+		font-weight: 100;
+		padding: 25px 0;
+
+		&:before {
+			content: counter(li) ".";
+			font-size: 5rem;
+			float: left;
+			margin-top: -15px;
+			margin-right: 15px;
+		}
+	}
+}
+
+
+
+
+// Project Inquiry
+
+label, input {
+	font-size: 2.6rem;
+	font-weight: 100;
+	color: $lightGray2;
+}
+
+.formGroup {
+	position: relative;
+
+	label {
+		position: absolute;
+
+		&:hover {
+			color: $aquaGreen;
+		}
+	}
+}
+
+input {
+	padding-left: 85px;
+	color: $fadedBlack;
+	margin: 23px 0;
+	display: block;
+	width: 100%;
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 1px solid $black;
+	border-left: 0;
+
+	&:focus {
+		outline: none;
+		border-bottom: 1px solid $aquaGreen;
+	}
+	
+	&.last {
+		padding-left: 215px;
+		color: $fadedBlack;
+	}
+}
+
+.description {
+	margin-top: 3px;
+	border: 1px solid $black;
+	display: block;
+	width: 100%;
+}
+
+textarea {
+	margin-bottom: 25px;
+	color: $gray;
+	font-size: 1.3rem;
+	padding: 10px;
+
+	&:hover {
+		border: 1px solid $aquaGreen;
+	}
+
+	&:focus {
+		outline: none;
+	}
+}
+
+.button {
+	background: $aquaGreen;
+	border: none;
+	color: $white;
+	display: inline-block;
+	padding: 10px 25px;
+	font-size: 2.6rem;
+	font-weight: 100;
+	text-align: center;
+	width: auto;
+}
+
+
+
+
+//FOOTER STYLES----------------------------------------------------------
+
+.hackerYou {
+	position: absolute;
+	bottom: 65px;
+	right: 0;
+
+	a {
+		color: $fadedBlack;
+
+		&:hover {
+			color: $aquaGreen;
+		}
+	}
+
+	img {
+		max-width: 80px;
+		display: block;
+	}
+
+	p {
+		padding-bottom: 30px;
+	}
+}
+
+.hackerYou {
+	padding: 7%;
+
+	p:nth-of-type(2), p:nth-of-type(3) {
+		font-size: 1.3rem;
+		line-height: .75rem;
+		padding-bottom: 0;
+	}
+}
+
+
+
+
+//SIDEBAR STYLES----------------------------------------------------------
+
+.sidebar {
+	background: url("images/hero.jpg") $lightGray no-repeat top;
+	background: cover;
+	width: 33.33%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.logo {
+	width: 222px;
+	display: block;
+	margin: 0 auto;
+	padding-top: 65px;
+}
+
+
+
+
+// Reasons
+
+.reasons {
+	padding: 800px 0 0 0;
+	
+	h3 {
+		padding-bottom: 20px;
+		margin:0;
+		color: $white;
+		margin: 0;
+	}
+
+	p {
+		color: $white;
+		margin: 0;
+	}
+
+	li {
+		padding: 7%;
+		list-style-type: none;
+	}
+}
+
+// Svg Icons
+
+.color {
+	fill: #fff;
+	padding: 5px 0;
+	display: block;
+}
+
+.reason1 {
+	background: $pastelGreen;
+}
+
+.reason2 {
+	background: $freshGreen;
+}
+
+.reason3 {
+	background: $paleGreen;
+}
+
+.reason4 {
+	background: $forestGreen;
+}
+
+.reason5 {
+	background: $pastelGreen2;
+}
+
+.reason6 {
+	background: $lightGray;
+
+	h3 {
+		color: $gray;
+	}
+
+	p {
+		color: $gray;
+		font-size: 1.3rem;
+		line-height: 1.8rem;
+	}
+}
+
+
+
+
+//MEDIA QUERIES----------------------------------------------------------
+
+@media (max-width: 1024px) {
+	.logo {
+		width: 175px;
+	}
+
+	.content {
+		padding-right: 5%;
+	}
+
+	.reasons {
+		padding-top: 176%;
+	}
+
+	.sidebar {
+		background-position: 59% -2%;
+	}
+}
+
+@media (max-width: 860px) {
+	.reasons {
+		padding-top: 246%;
+	}
+
+	label, input {
+		font-size: 2.2rem;
+		padding-bottom: 2px;
+	}
+
+	input.last {
+		padding-left: 190px;
+	}
+}
+
+@media (max-width: 770px) {
+	h2 {
+		font-size: 3.5rem;
+		line-height: 4.5rem;
+	}
+
+	h3 {
+		font-size: 2.4rem;
+	}
+
+	.content {
+		width: 65%;
+	}
+
+	.sidebar {
+		width: 35%;
+	}
+
+	.remainingTeam li {
+		width: 50%;
+	}
+
+	.team li {
+		width: 100%;
+
+		&:nth-last-child(1), &:nth-last-child(2) {
+			margin-bottom: 34px;
+		}
+	}
+}
+
+@media (max-width: 600px) {
+	.logo {
+		width: 145px;
+	}
+
+	h2 {
+		font-size: 3.5rem;
+		line-height: 4.5rem;
+	}
+
+	h3 {
+		font-size: 2rem;
+	}
+
+	.projectFit ol li {
+		font-size: 2rem;
+	}
+
+	label {
+		font-size: 1.6rem;
+	}
+
+	.formGroup input {
+		padding-left: 55px;
+		font-size: 1.6rem;
+
+		&.last {
+			padding-left: 130px;
+		}
+	}
+
+	.contactUs {
+		a, p {
+			font-size: 2rem;
+			line-height: 2.5rem;
+		}
+	}
+
+	.hackerYou p:nth-of-type(2), .hackerYou p:nth-of-type(3) {
+		line-height: 1.5em;
+	}
+
+// wanted to make image smaller in scale but couldn't make it work
+}
+
+@media (max-width: 400px) {
+	h2 {
+		font-size: 2.2rem;
+		line-height: 2.5rem;
+	}
+
+	h2#theTeam, .projectFit h2, .projectInquiries h2, {
+		margin-top: 50px;
+	}
+
+	p {
+		font-size: 1.4rem;
+		line-height: 2rem;
+	}
+
+	.outerWrapper {
+		padding-top: 25%;
+	}
+
+	.content {
+		float: none;
+		width: 100%;
+
+		nav {
+			display: none;
+			margin: 0;
+		}
+	}
+
+	.sidebar {
+		width: 100%;
+		position: static;
+		background: $lightGray no-repeat bottom;
+	}
+
+	.logo {
+		display: none;
+	}
+	
+	.logoMobile {
+		display: block;
+		margin: 2% auto;
+		height: 75px;
+		width: 40%;
+	}
+
+	.logoColor {
+		fill: #fff;
+	}
+
+	.navMobile {
+		display: block;
+		background: black;
+		box-shadow: 1px 0px 10px grey;
+		position: fixed;
+		z-index: 10;
+		width: 100%;
+
+		ul {
+			text-align: center;
+			background: $aquaGreen;
+			margin: 0;
+		}
+
+		li {
+			display: inline-block;
+			padding: 3%;
+		}
+
+		a {
+			font-size: 1.4rem;
+			color: $white;
+
+			&:hover {
+				color: $white;
+			}
+		}
+	}
+
+	.heroMobile {
+		display: block;
+		background-size: cover;
+	}
+
+	.team li:nth-last-child(1), .team li:nth-last-child(2) {
+		margin-bottom: 34px;
+	}
+
+	.remainingTeam li {
+		width: 100%;
+		margin-top: 15px;
+		// margin-bottom: 34px;
+
+		&:first-child {
+			margin-top: 0;
+		}
+	}
+
+	.projectFit, .projectInquiries, .contactUs {
+		padding-top: 0;
+	}
+
+	.projectFit p {
+		font-size: 1.3rem;
+		line-height: 2rem;
+	}
+
+	.projectFit ol li {
+		font-size: 1.75rem;
+
+		&:before {
+			font-size: 3.25rem;
+		}
+	}
+
+	textarea {
+		margin-bottom: 0;
+	}
+
+	.button {
+		width: 100%;
+		font-size: 1.6rem;
+	}
+
+	.contactUs {
+		display: none;
+	}
+
+	.contactUsMobile {
+		display: block;
+		background: $white;
+		padding: 9% 7%;
+
+		h2 {
+			margin: 0;
+		}
+
+		p {
+			font-size: 1.5rem;
+			line-height: 2rem;
+			margin: 0; 
+		}
+
+		a {
+			display: block;
+			margin-bottom: 5%;
+			font-size: 1.5rem;
+			line-height: 2rem;
+		}
+	}
+
+	.reasons {
+		padding: 0;
+	}
+
+	.hackerYou {
+		position: static;
+
+		p:nth-of-type(2), p:nth-of-type(3) {
+			line-height: .5rem;
+		}
+	}
+}
+
+
