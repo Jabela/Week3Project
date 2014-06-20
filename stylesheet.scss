@@ -534,22 +534,8 @@ textarea {
 	}
 
 	.sidebar {
-		background-position: 59% -2%;
-	}
-}
-
-@media (max-width: 860px) {
-	.reasons {
-		padding-top: 246%;
-	}
-
-	label, input {
-		font-size: 2.2rem;
-		padding-bottom: 2px;
-	}
-
-	input.last {
-		padding-left: 190px;
+		background-position: 54% -1%;
+		background-size: 184%;
 	}
 }
 
@@ -567,10 +553,6 @@ textarea {
 		width: 65%;
 	}
 
-	.sidebar {
-		width: 35%;
-	}
-
 	.remainingTeam li {
 		width: 50%;
 	}
@@ -581,6 +563,24 @@ textarea {
 		&:nth-last-child(1), &:nth-last-child(2) {
 			margin-bottom: 34px;
 		}
+	}
+	
+	.reasons {
+		padding-top: 258%;
+	}
+
+	.sidebar {
+		background-position: 54% 0%;
+		background-size: 230%;
+	}
+
+	label, input {
+		font-size: 2.2rem;
+		padding-bottom: 2px;
+	}
+
+	input.last {
+		padding-left: 190px;
 	}
 }
 
@@ -629,7 +629,7 @@ textarea {
 // wanted to make image smaller in scale but couldn't make it work
 }
 
-@media (max-width: 400px) {
+@media (max-width: 480px) {
 	h2 {
 		font-size: 2.2rem;
 		line-height: 2.5rem;
@@ -691,6 +691,7 @@ textarea {
 			text-align: center;
 			background: $aquaGreen;
 			margin: 0;
+			padding: 0;
 		}
 
 		li {
@@ -711,6 +712,7 @@ textarea {
 	.heroMobile {
 		display: block;
 		background-size: cover;
+		margin-top: 20px;
 	}
 
 	.team li:nth-last-child(1), .team li:nth-last-child(2) {
@@ -720,7 +722,6 @@ textarea {
 	.remainingTeam li {
 		width: 100%;
 		margin-top: 15px;
-		// margin-bottom: 34px;
 
 		&:first-child {
 			margin-top: 0;

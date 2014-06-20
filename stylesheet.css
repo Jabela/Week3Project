@@ -1,4 +1,3 @@
-/* line 29, stylesheet.scss */
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -6,83 +5,68 @@
 }
 
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
-/* line 33, stylesheet.scss */
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
 
-/* line 33, stylesheet.scss */
 body {
   margin: 0;
 }
 
-/* line 33, stylesheet.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
   display: block;
 }
 
-/* line 33, stylesheet.scss */
 audio, canvas, progress, video {
   display: inline-block;
   vertical-align: baseline;
 }
 
-/* line 33, stylesheet.scss */
 audio:not([controls]) {
   display: none;
   height: 0;
 }
 
-/* line 33, stylesheet.scss */
 [hidden], template {
   display: none;
 }
 
-/* line 33, stylesheet.scss */
 a {
   background: 0 0;
 }
 
-/* line 33, stylesheet.scss */
 a:active, a:hover {
   outline: 0;
 }
 
-/* line 33, stylesheet.scss */
 abbr[title] {
   border-bottom: 1px dotted;
 }
 
-/* line 33, stylesheet.scss */
 b, strong {
   font-weight: 700;
 }
 
-/* line 33, stylesheet.scss */
 dfn {
   font-style: italic;
 }
 
-/* line 33, stylesheet.scss */
 h1 {
   font-size: 2em;
   margin: .67em 0;
 }
 
-/* line 33, stylesheet.scss */
 mark {
   background: #ff0;
   color: #000;
 }
 
-/* line 33, stylesheet.scss */
 small {
   font-size: 80%;
 }
 
-/* line 33, stylesheet.scss */
 sub, sup {
   font-size: 75%;
   line-height: 0;
@@ -90,100 +74,82 @@ sub, sup {
   vertical-align: baseline;
 }
 
-/* line 33, stylesheet.scss */
 sup {
   top: -.5em;
 }
 
-/* line 33, stylesheet.scss */
 sub {
   bottom: -.25em;
 }
 
-/* line 33, stylesheet.scss */
 img {
   border: 0;
 }
 
-/* line 33, stylesheet.scss */
 svg:not(:root) {
   overflow: hidden;
 }
 
-/* line 33, stylesheet.scss */
 figure {
   margin: 1em 40px;
 }
 
-/* line 33, stylesheet.scss */
 hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
   height: 0;
 }
 
-/* line 33, stylesheet.scss */
 pre {
   overflow: auto;
 }
 
-/* line 33, stylesheet.scss */
 code, kbd, pre, samp {
   font-family: monospace,monospace;
   font-size: 1em;
 }
 
-/* line 33, stylesheet.scss */
 button, input, optgroup, select, textarea {
   color: inherit;
   font: inherit;
   margin: 0;
 }
 
-/* line 33, stylesheet.scss */
 button {
   overflow: visible;
 }
 
-/* line 33, stylesheet.scss */
 button, select {
   text-transform: none;
 }
 
-/* line 33, stylesheet.scss */
 button, html input[type=button], input[type=reset], input[type=submit] {
   -webkit-appearance: button;
   cursor: pointer;
 }
 
-/* line 33, stylesheet.scss */
 button[disabled], html input[disabled] {
   cursor: default;
 }
 
-/* line 33, stylesheet.scss */
 button::-moz-focus-inner, input::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
 
-/* line 33, stylesheet.scss */
 input {
   line-height: normal;
 }
 
-/* line 33, stylesheet.scss */
 input[type=checkbox], input[type=radio] {
   box-sizing: border-box;
   padding: 0;
 }
 
-/* line 33, stylesheet.scss */
 input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
   height: auto;
 }
 
-/* line 33, stylesheet.scss */
 input[type=search] {
   -webkit-appearance: textfield;
   -moz-box-sizing: content-box;
@@ -191,46 +157,38 @@ input[type=search] {
   box-sizing: content-box;
 }
 
-/* line 33, stylesheet.scss */
 input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
-/* line 33, stylesheet.scss */
 fieldset {
   border: 1px solid silver;
   margin: 0 2px;
   padding: .35em .625em .75em;
 }
 
-/* line 33, stylesheet.scss */
 legend {
   border: 0;
   padding: 0;
 }
 
-/* line 33, stylesheet.scss */
 textarea {
   overflow: auto;
 }
 
-/* line 33, stylesheet.scss */
 optgroup {
   font-weight: 700;
 }
 
-/* line 33, stylesheet.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 33, stylesheet.scss */
 td, th {
   padding: 0;
 }
 
-/* line 35, stylesheet.scss */
 .clearfix:after {
   content: " ";
   visibility: hidden;
@@ -239,101 +197,84 @@ td, th {
   clear: both;
 }
 
-/* line 43, stylesheet.scss */
 html {
   font-size: 62.5%;
 }
 
-/* line 47, stylesheet.scss */
 h1 {
   margin: 0;
 }
 
-/* line 51, stylesheet.scss */
 h2, h3, h4, h5, p {
   font-family: helvetica, arial, sans-serif;
   letter-spacing: -0.25px;
   font-weight: 100;
 }
 
-/* line 57, stylesheet.scss */
 h2 {
   font-size: 4.4rem;
   color: #302434;
   line-height: 5.5rem;
 }
 
-/* line 63, stylesheet.scss */
 h3 {
   font-size: 2.6rem;
   color: #414042;
   margin: 15px 0;
 }
 
-/* line 69, stylesheet.scss */
 h4 {
   font-size: 1.6rem;
   color: #797b7e;
   margin: 0;
 }
 
-/* line 75, stylesheet.scss */
 p {
   font-size: 1.6rem;
   line-height: 2.5rem;
   color: #797b7e;
 }
 
-/* line 81, stylesheet.scss */
 a {
   color: #00b480;
   font-weight: 100;
   text-decoration: none;
   display: inline;
 }
-/* line 87, stylesheet.scss */
 a:hover {
   color: #4f8510;
 }
 
-/* line 92, stylesheet.scss */
 img {
   max-width: 100%;
 }
 
-/* line 96, stylesheet.scss */
 .wrapper {
   position: relative;
 }
 
-/* line 105, stylesheet.scss */
 .content nav {
   margin: 57px 0 70px 0;
 }
-/* line 108, stylesheet.scss */
 .content nav ul {
   padding: 0;
   margin: 0;
   list-style-type: none;
 }
-/* line 114, stylesheet.scss */
 .content nav li {
   display: inline-block;
   padding-right: 35px;
 }
-/* line 120, stylesheet.scss */
 .content nav a {
   text-decoration: none;
   font-family: helvetica, arial, sans-serif;
   font-size: 1.6rem;
   font-weight: 100;
 }
-/* line 126, stylesheet.scss */
 .content nav a:hover {
   color: #4f8510;
 }
 
-/* line 137, stylesheet.scss */
 .content {
   color: #000;
   width: 66.66%;
@@ -342,48 +283,39 @@ img {
   float: left;
 }
 
-/* line 145, stylesheet.scss */
 .logoMobile, .navMobile, .heroMobile {
   display: none;
 }
 
-/* line 154, stylesheet.scss */
 .team {
   padding-left: 0;
   list-style-type: none;
 }
-/* line 158, stylesheet.scss */
 .team li {
   width: 50%;
   float: left;
   padding-right: 1.5%;
 }
-/* line 163, stylesheet.scss */
 .team li a {
   display: block;
   color: #414042;
   font-size: 1.6rem;
 }
-/* line 168, stylesheet.scss */
 .team li a:hover {
   color: #414042;
 }
-/* line 173, stylesheet.scss */
 .team li:nth-last-child(1), .team li:nth-last-child(2) {
   margin-bottom: 50px;
 }
-/* line 178, stylesheet.scss */
 .team p {
   font-size: 1.3rem;
   line-height: 1.8rem;
   margin-bottom: 30px;
 }
 
-/* line 185, stylesheet.scss */
 .bioHover {
   position: relative;
 }
-/* line 188, stylesheet.scss */
 .bioHover a.overlay {
   position: absolute;
   top: 0;
@@ -398,18 +330,15 @@ img {
   opacity: 0;
   transition: opacity 0.3s;
 }
-/* line 204, stylesheet.scss */
 .bioHover:hover a.overlay {
   opacity: 1;
   color: #414042;
 }
 
-/* line 215, stylesheet.scss */
 .remainingTeam {
   font-size: 0;
   padding-left: 0;
 }
-/* line 220, stylesheet.scss */
 .remainingTeam li {
   width: 33.3%;
   display: inline-block;
@@ -417,66 +346,54 @@ img {
   padding-right: 1.5%;
   margin: 15px 0;
 }
-/* line 228, stylesheet.scss */
 .remainingTeam a {
   display: block;
   font-size: 1.3rem;
   line-height: 1.8rem;
 }
-/* line 234, stylesheet.scss */
 .remainingTeam p {
   padding: 0;
   margin: 0;
   font-size: 1.3rem;
 }
-/* line 240, stylesheet.scss */
 .remainingTeam h4 {
   padding: 12px 0 7px 0;
 }
 
-/* line 251, stylesheet.scss */
 .contactUs a, .contactUs p {
   font-size: 2.6rem;
   line-height: 3.25rem;
   margin: 0;
 }
-/* line 257, stylesheet.scss */
 .contactUs h2 {
   margin-bottom: 0;
 }
-/* line 261, stylesheet.scss */
 .contactUs:last-child {
   padding-bottom: 100px;
 }
 
-/* line 266, stylesheet.scss */
 .contactUsMobile {
   display: none;
 }
 
-/* line 275, stylesheet.scss */
 .projectFit {
   clear: both;
 }
 
-/* line 279, stylesheet.scss */
 .projectFit, .projectInquiries, .contactUs {
   padding-top: 40px;
 }
 
-/* line 283, stylesheet.scss */
 .projectFit h2, .projectFit li {
   border-bottom: 1px solid #e3e3e1;
   padding-bottom: 20px;
   margin-bottom: 0;
 }
 
-/* line 289, stylesheet.scss */
 .projectFit ol {
   margin: 0;
   padding: 0;
 }
-/* line 293, stylesheet.scss */
 .projectFit ol li {
   counter-increment: li;
   list-style: none;
@@ -485,7 +402,6 @@ img {
   font-weight: 100;
   padding: 25px 0;
 }
-/* line 301, stylesheet.scss */
 .projectFit ol li:before {
   content: counter(li) ".";
   font-size: 5rem;
@@ -494,27 +410,22 @@ img {
   margin-right: 15px;
 }
 
-/* line 316, stylesheet.scss */
 label, input {
   font-size: 2.6rem;
   font-weight: 100;
   color: #b0b2b4;
 }
 
-/* line 322, stylesheet.scss */
 .formGroup {
   position: relative;
 }
-/* line 325, stylesheet.scss */
 .formGroup label {
   position: absolute;
 }
-/* line 328, stylesheet.scss */
 .formGroup label:hover {
   color: #00b480;
 }
 
-/* line 334, stylesheet.scss */
 input {
   padding-left: 85px;
   color: #414042;
@@ -526,18 +437,15 @@ input {
   border-bottom: 1px solid #231f20;
   border-left: 0;
 }
-/* line 345, stylesheet.scss */
 input:focus {
   outline: none;
   border-bottom: 1px solid #00b480;
 }
-/* line 350, stylesheet.scss */
 input.last {
   padding-left: 215px;
   color: #414042;
 }
 
-/* line 356, stylesheet.scss */
 .description {
   margin-top: 3px;
   border: 1px solid #231f20;
@@ -545,23 +453,19 @@ input.last {
   width: 100%;
 }
 
-/* line 363, stylesheet.scss */
 textarea {
   margin-bottom: 25px;
   color: #797b7e;
   font-size: 1.3rem;
   padding: 10px;
 }
-/* line 369, stylesheet.scss */
 textarea:hover {
   border: 1px solid #00b480;
 }
-/* line 373, stylesheet.scss */
 textarea:focus {
   outline: none;
 }
 
-/* line 378, stylesheet.scss */
 .button {
   background: #00b480;
   border: none;
@@ -574,42 +478,34 @@ textarea:focus {
   width: auto;
 }
 
-/* line 395, stylesheet.scss */
 .hackerYou {
   position: absolute;
   bottom: 65px;
   right: 0;
 }
-/* line 400, stylesheet.scss */
 .hackerYou a {
   color: #414042;
 }
-/* line 403, stylesheet.scss */
 .hackerYou a:hover {
   color: #00b480;
 }
-/* line 408, stylesheet.scss */
 .hackerYou img {
   max-width: 80px;
   display: block;
 }
-/* line 413, stylesheet.scss */
 .hackerYou p {
   padding-bottom: 30px;
 }
 
-/* line 418, stylesheet.scss */
 .hackerYou {
   padding: 7%;
 }
-/* line 421, stylesheet.scss */
 .hackerYou p:nth-of-type(2), .hackerYou p:nth-of-type(3) {
   font-size: 1.3rem;
   line-height: .75rem;
   padding-bottom: 0;
 }
 
-/* line 433, stylesheet.scss */
 .sidebar {
   background: url("images/hero.jpg") #e3e3e1 no-repeat top;
   background: cover;
@@ -620,7 +516,6 @@ textarea:focus {
   bottom: 0;
 }
 
-/* line 443, stylesheet.scss */
 .logo {
   width: 222px;
   display: block;
@@ -628,69 +523,56 @@ textarea:focus {
   padding-top: 65px;
 }
 
-/* line 455, stylesheet.scss */
 .reasons {
   padding: 800px 0 0 0;
 }
-/* line 458, stylesheet.scss */
 .reasons h3 {
   padding-bottom: 20px;
   margin: 0;
   color: white;
   margin: 0;
 }
-/* line 465, stylesheet.scss */
 .reasons p {
   color: white;
   margin: 0;
 }
-/* line 470, stylesheet.scss */
 .reasons li {
   padding: 7%;
   list-style-type: none;
 }
 
-/* line 478, stylesheet.scss */
 .color {
   fill: #fff;
   padding: 5px 0;
   display: block;
 }
 
-/* line 484, stylesheet.scss */
 .reason1 {
   background: #549f66;
 }
 
-/* line 488, stylesheet.scss */
 .reason2 {
   background: #4f8510;
 }
 
-/* line 492, stylesheet.scss */
 .reason3 {
   background: #80a94e;
 }
 
-/* line 496, stylesheet.scss */
 .reason4 {
   background: #4b8256;
 }
 
-/* line 500, stylesheet.scss */
 .reason5 {
   background: #73ae80;
 }
 
-/* line 504, stylesheet.scss */
 .reason6 {
   background: #e3e3e1;
 }
-/* line 507, stylesheet.scss */
 .reason6 h3 {
   color: #797b7e;
 }
-/* line 511, stylesheet.scss */
 .reason6 p {
   color: #797b7e;
   font-size: 1.3rem;
@@ -698,174 +580,143 @@ textarea:focus {
 }
 
 @media (max-width: 1024px) {
-  /* line 524, stylesheet.scss */
   .logo {
     width: 175px;
   }
 
-  /* line 528, stylesheet.scss */
   .content {
     padding-right: 5%;
   }
 
-  /* line 532, stylesheet.scss */
   .reasons {
     padding-top: 176%;
   }
 
-  /* line 536, stylesheet.scss */
   .sidebar {
-    background-position: 59% -2%;
+    background-position: 54% -1%;
+    background-size: 184%;
   }
 }
-@media (max-width: 860px) {
-  /* line 542, stylesheet.scss */
-  .reasons {
-    padding-top: 246%;
+@media (max-width: 770px) {
+  h2 {
+    font-size: 3.5rem;
+    line-height: 4.5rem;
   }
 
-  /* line 546, stylesheet.scss */
+  h3 {
+    font-size: 2.4rem;
+  }
+
+  .content {
+    width: 65%;
+  }
+
+  .remainingTeam li {
+    width: 50%;
+  }
+
+  .team li {
+    width: 100%;
+  }
+  .team li:nth-last-child(1), .team li:nth-last-child(2) {
+    margin-bottom: 34px;
+  }
+
+  .reasons {
+    padding-top: 258%;
+  }
+
+  .sidebar {
+    background-position: 54% 0%;
+    background-size: 230%;
+  }
+
   label, input {
     font-size: 2.2rem;
     padding-bottom: 2px;
   }
 
-  /* line 551, stylesheet.scss */
   input.last {
     padding-left: 190px;
   }
 }
-@media (max-width: 770px) {
-  /* line 557, stylesheet.scss */
-  h2 {
-    font-size: 3.5rem;
-    line-height: 4.5rem;
-  }
-
-  /* line 562, stylesheet.scss */
-  h3 {
-    font-size: 2.4rem;
-  }
-
-  /* line 566, stylesheet.scss */
-  .content {
-    width: 65%;
-  }
-
-  /* line 570, stylesheet.scss */
-  .sidebar {
-    width: 35%;
-  }
-
-  /* line 574, stylesheet.scss */
-  .remainingTeam li {
-    width: 50%;
-  }
-
-  /* line 578, stylesheet.scss */
-  .team li {
-    width: 100%;
-  }
-  /* line 581, stylesheet.scss */
-  .team li:nth-last-child(1), .team li:nth-last-child(2) {
-    margin-bottom: 34px;
-  }
-}
 @media (max-width: 600px) {
-  /* line 588, stylesheet.scss */
   .logo {
     width: 145px;
   }
 
-  /* line 592, stylesheet.scss */
   h2 {
     font-size: 3.5rem;
     line-height: 4.5rem;
   }
 
-  /* line 597, stylesheet.scss */
   h3 {
     font-size: 2rem;
   }
 
-  /* line 601, stylesheet.scss */
   .projectFit ol li {
     font-size: 2rem;
   }
 
-  /* line 605, stylesheet.scss */
   label {
     font-size: 1.6rem;
   }
 
-  /* line 609, stylesheet.scss */
   .formGroup input {
     padding-left: 55px;
     font-size: 1.6rem;
   }
-  /* line 613, stylesheet.scss */
   .formGroup input.last {
     padding-left: 130px;
   }
 
-  /* line 619, stylesheet.scss */
   .contactUs a, .contactUs p {
     font-size: 2rem;
     line-height: 2.5rem;
   }
 
-  /* line 625, stylesheet.scss */
   .hackerYou p:nth-of-type(2), .hackerYou p:nth-of-type(3) {
     line-height: 1.5em;
   }
 }
-@media (max-width: 400px) {
-  /* line 633, stylesheet.scss */
+@media (max-width: 480px) {
   h2 {
     font-size: 2.2rem;
     line-height: 2.5rem;
   }
 
-  /* line 638, stylesheet.scss */
   h2#theTeam, .projectFit h2, .projectInquiries h2 {
     margin-top: 50px;
   }
 
-  /* line 642, stylesheet.scss */
   p {
     font-size: 1.4rem;
     line-height: 2rem;
   }
 
-  /* line 647, stylesheet.scss */
   .outerWrapper {
     padding-top: 25%;
   }
 
-  /* line 651, stylesheet.scss */
   .content {
     float: none;
     width: 100%;
   }
-  /* line 655, stylesheet.scss */
   .content nav {
     display: none;
     margin: 0;
   }
 
-  /* line 661, stylesheet.scss */
   .sidebar {
     width: 100%;
     position: static;
     background: #e3e3e1 no-repeat bottom;
   }
 
-  /* line 667, stylesheet.scss */
   .logo {
     display: none;
   }
 
-  /* line 671, stylesheet.scss */
   .logoMobile {
     display: block;
     margin: 2% auto;
@@ -873,12 +724,10 @@ textarea:focus {
     width: 40%;
   }
 
-  /* line 678, stylesheet.scss */
   .logoColor {
     fill: #fff;
   }
 
-  /* line 682, stylesheet.scss */
   .navMobile {
     display: block;
     background: black;
@@ -887,101 +736,84 @@ textarea:focus {
     z-index: 10;
     width: 100%;
   }
-  /* line 690, stylesheet.scss */
   .navMobile ul {
     text-align: center;
     background: #00b480;
     margin: 0;
+    padding: 0;
   }
-  /* line 696, stylesheet.scss */
   .navMobile li {
     display: inline-block;
     padding: 3%;
   }
-  /* line 701, stylesheet.scss */
   .navMobile a {
     font-size: 1.4rem;
     color: white;
   }
-  /* line 705, stylesheet.scss */
   .navMobile a:hover {
     color: white;
   }
 
-  /* line 711, stylesheet.scss */
   .heroMobile {
     display: block;
     background-size: cover;
+    margin-top: 20px;
   }
 
-  /* line 716, stylesheet.scss */
   .team li:nth-last-child(1), .team li:nth-last-child(2) {
     margin-bottom: 34px;
   }
 
-  /* line 720, stylesheet.scss */
   .remainingTeam li {
     width: 100%;
     margin-top: 15px;
   }
-  /* line 725, stylesheet.scss */
   .remainingTeam li:first-child {
     margin-top: 0;
   }
 
-  /* line 730, stylesheet.scss */
   .projectFit, .projectInquiries, .contactUs {
     padding-top: 0;
   }
 
-  /* line 734, stylesheet.scss */
   .projectFit p {
     font-size: 1.3rem;
     line-height: 2rem;
   }
 
-  /* line 739, stylesheet.scss */
   .projectFit ol li {
     font-size: 1.75rem;
   }
-  /* line 742, stylesheet.scss */
   .projectFit ol li:before {
     font-size: 3.25rem;
   }
 
-  /* line 747, stylesheet.scss */
   textarea {
     margin-bottom: 0;
   }
 
-  /* line 751, stylesheet.scss */
   .button {
     width: 100%;
     font-size: 1.6rem;
   }
 
-  /* line 756, stylesheet.scss */
   .contactUs {
     display: none;
   }
 
-  /* line 760, stylesheet.scss */
   .contactUsMobile {
     display: block;
     background: white;
     padding: 9% 7%;
   }
-  /* line 765, stylesheet.scss */
   .contactUsMobile h2 {
     margin: 0;
   }
-  /* line 769, stylesheet.scss */
   .contactUsMobile p {
     font-size: 1.5rem;
     line-height: 2rem;
     margin: 0;
   }
-  /* line 775, stylesheet.scss */
   .contactUsMobile a {
     display: block;
     margin-bottom: 5%;
@@ -989,16 +821,13 @@ textarea:focus {
     line-height: 2rem;
   }
 
-  /* line 783, stylesheet.scss */
   .reasons {
     padding: 0;
   }
 
-  /* line 787, stylesheet.scss */
   .hackerYou {
     position: static;
   }
-  /* line 790, stylesheet.scss */
   .hackerYou p:nth-of-type(2), .hackerYou p:nth-of-type(3) {
     line-height: .5rem;
   }
